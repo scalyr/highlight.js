@@ -1,0 +1,1 @@
+"example" count:26h($logfile='/var/log/backup-to-s3.log' $serverHost='devservices2.scalyr.net' '_opt_youtrack' 'Successfully backed up') < 0.9
