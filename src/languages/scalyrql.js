@@ -7,7 +7,7 @@
 function(hljs) {
   var SCALYR_KEYWORDS = 'where contains and or not';
   var SCALYR_LITERALS = 'true false';
-  var SCALYR_FUNCTIONS = 'countPerSecond|hourOfDay|dayOfWeek|mean|min|max|sumPerSecond|median|p10|p50|p90|p95|p999|p99|p|fraction|count';
+  var SCALYR_FUNCTIONS = 'countPerSecond|hourOfDay|dayOfWeek|dayOfMonth|mean|min|max|sumPerSecond|median|p10|p50|p90|p95|p999|p99|p|fraction|count';
 
   var REGEX = {
     className: 'regexp',
